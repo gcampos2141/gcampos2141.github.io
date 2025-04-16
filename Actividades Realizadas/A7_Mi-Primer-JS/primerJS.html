@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 onclick="cambioTexto(this)">Hola Mundo</h1>
+    <div onmouseover="cambioColor(this)">
+        <h3>Grupo 35</h3>
+    </div>
+
+    <script>
+        let contador = 0;
+        const textos = ["Primer cambio", "Segundo cambio", "Tercer cambio", "Haz clic aquí"];
+
+        function cambioColor(ref){
+            ref.style.backgroundColor="red";
+            window.alert('Alerta');
+        }
+
+        function cambioTexto(ref){          
+            contador = (contador + 1) % textos.length;
+            ref.textContent = textos[contador];
+        }
+    </script>
+</body>
+</html>

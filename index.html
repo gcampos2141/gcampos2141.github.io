@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Menú de Selección - Genially Estilo</title>
+  <style>
+    body {
+      font-family: Roboto, sans-serif;
+      background-color: #ffffff;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    h1 {
+      padding: 20px;
+      margin-top: 40px;
+      color: #1b1b3a;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      padding: 40px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .card {
+      background-color: #f5f7fa;
+      border: 1px solid #e0e0e0;
+      border-radius: 12px;
+      padding: 25px 15px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      transition: all 0.3s ease;
+      text-decoration: none;
+      color: #1b1b3a;
+      font-weight: 500;
+    }
+
+    .card:hover {
+      background-color: #e8f0fe;
+      transform: scale(1.05);
+      cursor: pointer;
+    }
+
+    @media (max-width: 800px) {
+      .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 500px) {
+      .grid-container {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Menú Selección Desarrollo de Sistemas de Internet</h1>
+
+  <div class="grid-container">
+    <a class="card" href="Actividades Realizadas/A1_PrimeraPractica_HTML/PrimeraPractica.html">Primera Practica HTML</a>
+    <a class="card" href="Actividades Realizadas/A2_HorarioHTML/A2_Practica.html">Horario HTML</a>
+    <a class="card" href="Actividades Realizadas/A3_IntroPracticaCSS/Index.html">Práctica 1 CSS (Introducción CSS)</a>
+    <a class="card" href="Actividades Realizadas/A4_Practica2CSS_F1/Index.html">Práctica 2 CSS (F1)</a>
+    <a class="card" href="Actividades Realizadas/A5_Practica3CSS/index.html">Practica 3 CSS (Replica HTML)</a>
+
+    <a class="card" href="Actividades Realizadas/A6_PracticaCSS_Blog/index.html">Página sobre mi!(Blog)</a>
+    <a class="card" href="Actividades Realizadas/A7_Mi-Primer-JS/calculadora.html">Calculadora</a>
+    <a class="card" href="Actividades Realizadas/A8_Practica-QUERY/index.html">Slider (Práctica QUERY)</a>
+    <a class="card" href="Actividades Realizadas/A9_Automatic_Color_Change/index.html">Cambio de Colores</a>
+    <a class="card" href="Actividades Realizadas/A10_Practica_Comentarios/index.html">Comentarios</a>
+
+    <a class="card" href="Actividades Realizadas/A11_CaritaFeliz/index.html">Elementos (Carita Feliz)</a>
+    <a class="card" href="Actividades Realizadas/A12_PracticaJSON/index.html">Notas (Práctica JSON)</a>
+    <a class="card" href="Actividades Realizadas/A13_Movies Searcher/index.html">Buscar Peliculas</a>
+    <a class="card" href="Actividades Realizadas/A14_Trivia/index.html">Trivia</a>
+    <a class="card" href="Actividades Realizadas/A15_Conversor-Temp/index.php">Conversor de Temperatura</a>
+  </div>
+</body>
+</html>
